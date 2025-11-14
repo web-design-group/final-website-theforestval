@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MEGAVERSE shop</title>
+    <link rel="stylesheet" href="megaverse_style.css">
+    <style>
+        body {
+                font-family: 'Open sans', sans-serif;
+                margin: 0;
+        }
+
+         .flex-container-logo {
+                display: flex;
+                height: 549.33px;
+                justify-content: center;
+                align-items: center;
+                background-color: #C8CBE6;
+         }
+
+          .flex-container-section1 {
+                display: flex;
+                box-sizing: border-box;
+                flex-direction: column;
+                height: 750px;
+                justify-content: center;
+                align-items: center;
+                padding-left: 190px;
+                padding-right: 190px;
+         }
+
+         .flex-container-section2 {
+                display: flex;
+                box-sizing: border-box;
+                flex-direction: column;
+                height: 550px;
+                justify-content: center;
+                align-items: center;
+                padding-left: 190px;
+                padding-right: 190px;
+         }
+
+         .socials-row {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+         }
+
+         .social-button {
+                height: 92px;
+                width: 555px;
+                background-color: #8789A9;
+                border: none;
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+         }
+
+         .card {
+                position: relative;
+                width: 555px;
+                height: 231.85px;
+                gap: 20px;
+                overflow: hidden;
+                display: flex;
+                align-items: stretch;
+                cursor: pointer;
+         }
+
+         .main-img {
+                object-fit: cover;
+                z-index: 1;
+         }
+
+          .overlay {
+                position: absolute;
+                z-index: 2;
+                inset: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: #C8CBE6;
+                background: rgba(0, 0, 0, 0.60); 
+                transition: background 0.3s;
+         }
+
+          .icon {
+                font-size: 3em;
+                margin-bottom: 18px;
+                transition: opacity 0.3s;
+              }
+
+          .title {
+                font-weight: bold;
+                font-size: 32px;
+                text-align: center;
+                transition: opacity 0.3s;
+         }
+
+          .text {
+                font-size: 20px;
+                text-align: center;
+                margin-top: 10px;
+                transition: opacity 0.3s;
+         }
+
+          .review-card {
+                display: flex;
+                flex-direction: row;
+                background: #F3F3F3;
+                overflow: hidden;
+                height: 440px;
+                width: 1130px;
+
+         }
+
+          .review-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F3F3F3;
+         }
+          .review-image img {
+                width: auto;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+         }
+
+          .review-content {
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+         }
+
+         .nav {
+                display: flex;
+                height: 70px;
+                background-color: #8789A9;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                gap: 132px;
+                font-weight: bold;
+         }
+
+         footer {
+                font-size: 24px;
+                text-align: center;
+                color: #3D3F65;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+        <a href="#">О НАС</a>
+        <a href="#">АССОРТИМЕНТ</a>
+        <a href="#">FAQ</a>
+        <a href="#">ИНД. ЗАКАЗ</a>
+        <a href="#">КОРЗИНА</a>
+      </nav>
+    </header>
+    <main>
+      <div class="flex-container-logo">
+      <img src="content/logo.png" alt="MEGAVERSE" width="75%">
+      </div>
+
+      <section class="flex-container-section1" style="background-color: #F3F3F3">
+      <a>MEGAVERSE</a>
+      <p>
+      магазин украшений ручной работы и целая вселенная, созданная из энергии любимых групп, альбомов и песен kpop, где можно найти аксессуары на любой вкус из уже готовых изделий и реализовать собственный дизайн 
+      </p>
+      <div class="socials-row">
+      <div class="card">
+      <img class="main-img" src="content/1.png" alt="ССЫЛКА АССОРТИМЕНТ">
+      <div class="overlay">
+        <div class="icon"><img src="content/icon.png" alt="ИКОНКА"></div>
+        <div class="title">ГОТОВЫЕ УКРАШЕНИЯ</div>
+        <div class="text">ожерелья, серьги, кольца и другое</div>
+      </div>
+      </div>
+      <div class="card">
+      <img class ="main-img" src="content/2.png" alt="ССЫЛКА ИНДИВИДУАЛЬНЫЙ ЗАКАЗ">
+      <div class="overlay">
+        <div class="icon"><img src="content/icon.png" alt="ИКОНКА"></div>
+        <div class="title">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</div>
+        <div class="text">любая бижутерия по вашей идее</div>
+      </div>
+      </div>
+      </div>
+      </section>
+ 
+      <section class="flex-container-section1 " style="background-color: #8789A9;">
+      <a>ОТЗЫВЫ</a>
+      <div class="review-card">
+      <div class="review-image">
+      <img src="content/review.png" alt="ФОТО ОТЗЫВА" />
+      </div>
+      <div class="review-content">
+      <p>спасибо вам большое за чудесный брелок! доставка быстрая, упаковка хорошая.</p>
+      <p class="review-user">@ idlayairwi</p>
+      </div>
+      </div>
+      </section>
+
+      <section class="flex-container-section2" style="background-color: #C8CBE6">
+      <a>НАШИ СОЦСЕТИ</a>
+      <p>
+      в телеграм-канале публикуются все самые свежие новости, в том числе анонсы новых коллекций; в тикток-аккаунте можно найти ролики с процессом изготовления украшений
+      </p>
+      <div class="socials-row">
+      <a href="https://web.telegram.org/"><button class="social-button">
+      <img src="content/tg.png" alt="ССЫЛКА ТЕЛЕГРАМ" width="65%"></a>
+      <a href="https://www.tiktok.com/"><button class="social-button">
+      <img src="content/tt.png" alt="ССЫЛКА ТИКТОК" width="65%"></a>
+      </div>
+      </section>
+
+    </main>
+    <footer>
+        <p>ИНН: 782508012225</p>
+        <p>ЛЕСНАЯ ВАЛЕРИЯ ВИТАЛЬЕВНА</p>
+    </footer>
+</body>
+</html>

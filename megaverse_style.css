@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:slnt,wght,CRSV,SHRP@-12..0,100..900,0..1,0..100&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.nav a {
+  color: #252743;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #E6E7F5;
+}
+
+.nav a:active {
+  color: #C8CBE6;
+}
+
+.flex-container-section2 a {
+  font-size: 48px;
+  font-weight: bold;
+  color: #3D3F65;
+  text-align: center;
+}
+
+.flex-container-section2 p {
+  font-size: 24px;
+  color: #000;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+
+.social-button:hover {
+  background-color: #E6E7F5;
+            
+}
+
+.flex-container-section1 a {
+  font-size: 48px;
+  font-weight: bold;
+  color: #3D3F65;
+  text-align: center;
+}
+
+.flex-container-section1 p {
+  font-size: 24px;
+  color: #000;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+
+.card:hover .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.card:hover .title,
+.card:hover .text {
+  opacity: 0;
+  pointer-events: none;
+}
+.card:hover .icon {
+  opacity: 1;
+}
